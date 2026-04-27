@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Шапка */
+header {
+  background: #f5f5f5;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 22px;
+  color: #264f36;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo__img {
+  width: px;
+  height: 32px;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+/* Баннер */
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 20px 40px;
+}
+
+.banner__image {
+  max-width: 1250px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* Заголовок */
+.menu-title {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+/* Категории */
+.menu-sections {
+  display: flex;
+  gap: 8px;
+  padding: 10px 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.menu-sections button {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background: #f5f5f5;
+  cursor: pointer;
+  font-size: 14px;
+  flex-shrink: 0;
+  color: #333;
+  transition: 0.2s;
+}
+
+.menu-sections button:hover {
+  background: #e0e0e0;
+}
+
+.menu-sections button.active {
+  background: #264f36;
+  color: white;
+  border-color: #264f36;
+}
+
+.menu-sections button.active:hover {
+  background: #1e3d2a;
+}
+
+/* Карточки */
+.combo-list {
+  display: flex;
+  gap: 15px;
+  padding: 10px 20px 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.combo-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 280px;
+}
+
+.combo-card:hover {
+  border-color: #264f36;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: 0.2s;
+}
+
+.combo-card h3 {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.combo-card__image {
+  font-size: 50px;
+}
+
+.combo-card__price {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+header, .banner, .menu-title, .menu-sections, .combo-list {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
