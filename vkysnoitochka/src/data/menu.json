@@ -5,8 +5,7 @@
     "name": "Сет Биг Спешиал Перец гриль",
     "weight": "671 г",
     "price": 663,
-    "image": "set_big_speshal.webp",
-    "description": "Сет Биг Спешиал Перец гриль и Биг Спешиал ролл Перец гриль по выгодной цене. Доступно только в Доставке!"
+    "image": "set_big_speshal.webp"
   },
   {
     "id": 2,
@@ -14,8 +13,7 @@
     "name": "Пара Бабл Айс Кофе",
     "weight": "800 г",
     "price": 575,
-    "image": "para_bable.webp",
-    "description": "Два Бабл Айс Кофе по специальной цене. Только в Доставке!"
+    "image": "para_bable.webp"
   },
   {
     "id": 3,
@@ -23,8 +21,7 @@
     "name": "Пара Физз Черноголовка Белая земляника",
     "weight": "1000 г",
     "price": 147,
-    "image": "para_fizz.webp",
-    "description": "Два освежающих Физз с вкусом белой земляники. Только в Доставке!"
+    "image": "para_fizz.webp"
   },
   {
     "id": 4,
@@ -32,43 +29,134 @@
     "name": "Сет для Двоих",
     "weight": "767 г",
     "price": 937,
-    "image": "set_dli_two.webp",
-    "description": "Большой сет для двоих: бургеры, закуски и напитки. Только в Доставке!"
+    "image": "set_dli_two.webp"
   },
   {
     "id": 5,
-    "category": "КОМБО",
-    "name": "Комбо Олеси Иванченко",
-    "weight": "842 г",
-    "price": 459,
-    "image": "",
-    "description": "Фирменное комбо от Олеси Иванченко. Сытный обед по отличной цене."
+    "category": "СЕТЫ И ПАРЫ",
+    "name": "Пара Атлантик Бургер",
+    "weight": "336 г",
+    "price": 538,
+    "image": "para_atlantik.webp"
   },
   {
     "id": 6,
-    "category": "КОМБО",
-    "name": "Комбо Юрия Стоянова",
-    "weight": "842 г",
-    "price": 459,
-    "image": "",
-    "description": "Комбо от Юрия Стоянова — легендарный вкус в каждом блюде."
+    "category": "СЕТЫ И ПАРЫ",
+    "name": "Сет Биг Спешиал Перец гриль и Биг Хит",
+    "weight": "604 г",
+    "price": 559,
+    "image": "set_big-spesial.webp"
   },
   {
     "id": 7,
-    "category": "КОМБО",
-    "name": "Комбо Олеси Иванченко",
-    "weight": "155 г",
-    "price": 229,
-    "image": "",
-    "description": "Компактное комбо от Олеси Иванченко для лёгкого перекуса."
+    "category": "СЕТЫ И ПАРЫ",
+    "name": "Пара Биг Хит",
+    "weight": "456 г",
+    "price": 408,
+    "image": "para_big-hit.webp"
   },
   {
     "id": 8,
-    "category": "КОМБО",
-    "name": "Комбо Юрия Стоянова",
-    "weight": "344 г",
+    "category": "СЕТЫ И ПАРЫ",
+    "name": "Пара: Биг Хит/Гранд и Чикен Премьер",
+    "weight": "",
+    "price": 389,
+    "image": "para_big-hit.grand.webp"
+  },
+{
+    "id": 9,
+    "category": "НАПИТКИ",
+    "name": "Эспрессо-тоник Гранат",
+    "weight": "344 мл",
     "price": 199,
-    "image": "",
-    "description": "Сбалансированное комбо от Юрия Стоянова — вкус и польза."
-  }
+    "image": "expres_tonik.webp"
+  },
+  {
+    "id": 10,
+    "category": "НАПИТКИ",
+    "name": "Айс Матча Кокос",
+    "weight": "310 мл",
+    "price": 229,
+    "image": "ace_matcha.webp"
+  },
+  {
+    "id": 11,
+    "category": "НАПИТКИ",
+    "name": "Бабл-ти Ананас-лемонграсс",
+    "weight": "310 мл",
+    "price": 279,
+    "image": "bable_ti.webp"
+  },
+  {
+  "id": 12,
+  "category": "НАПИТКИ",
+  "name": "Лимонад Дольче манго",
+  "weight": "266 мл",
+  "price": 145,
+  "image": "dolche_mango.webp"
+  },
+  {
+  "id": 13,
+  "category": "НОВИНКИ",
+  "name": "Комбо Олеси Иванченко",
+  "weight": "842 г",
+  "price": 459,
+  "image": "olesa.webp"
+},
+{
+  "id": 14,
+  "category": "НОВИНКИ",
+  "name": "Комбо Юрия Стоянова",
+  "weight": "",
+  "price": 459,
+  "image": "uri.webp"
+},
+{
+  "id": 15,
+  "category": "НОВИНКИ",
+  "name": "Биг Чикен бургер Перец гриль",
+  "weight": "374 г",
+  "price": 355,
+  "image": "big_chik.webp"
+},
+{
+  "id": 16,
+  "category": "НОВИНКИ",
+  "name": "Чикен Премьер Перец гриль",
+  "weight": "255 г",
+  "price": 244,
+  "image": "premir.webp"
+},
+{
+  "id": 17,
+  "category": "КОМБО",
+  "name": "Комбо Олеси Иванченко",
+  "weight": "842 г",
+  "price": 459,
+  "image": "olesa.webp"
+},
+{
+  "id": 18,
+  "category": "КОМБО",
+  "name": "Комбо Юрия Стоянова",
+  "weight": "",
+  "price": 459,
+  "image": "uri.webp"
+},
+{
+  "id": 19,
+  "category": "КОМБО",
+  "name": "Атлантик Бургер Кунжутный Комбо",
+  "weight": "Средний",
+  "price": 439,
+  "image": "atlant.webp"
+},
+{
+  "id": 20,
+  "category": "КОМБО",
+  "name": "Биг Спешиал Перец гриль Комбо",
+  "weight": "Средний",
+  "price": 538,
+  "image": "spesial.webp"
+}
 ]
